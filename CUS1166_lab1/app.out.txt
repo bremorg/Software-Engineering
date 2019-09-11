@@ -1,0 +1,19 @@
+Name: S1
+Grade: 89
+Name: S2
+Grade: 67
+Name: S3
+Grade: 74
+Name: S4
+Grade: 93
+Name: S5
+Grade: 50
+Name: S6
+Grade: 65
+Name: S7
+Grade: 77
+Name: S8
+Grade: 39
+Name: S9
+Grade: 100
+72
