@@ -1,0 +1,21 @@
+{% if view==0 %}
+	<ul>	
+	{% for student in student_view %}
+		<li>{{ student[0] }}, {{ student[1] }}, {{ student[2] }} </li>
+	{% endfor %}  
+	</ul>
+{% elif view==1 %}
+	<ul>
+	{% for student in student_view %}
+        	<li>{{ student[0] }}, {{ student[2] }} </li>
+	{% endfor %}
+	</ul>
+{% elif view==2 %}
+	<ul>
+	{% for student in student_view %}
+        	<li>{{ student[0] }}, {{ student[1] }} </li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<h3>{{view}} isn't an acceptable value<h3>
+{% endif %}
